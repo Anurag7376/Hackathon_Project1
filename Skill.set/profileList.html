@@ -1,0 +1,187 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Convert | Export html Table to CSV & EXCEL File</title>
+     <link rel="stylesheet" type="text/css" href="style2.css">
+ </head>
+ 
+ <body>
+    <div class="bg">
+        <video autoplay loop muted src="Assets/vid1.mp4"></video>
+    </div>
+     <main class="table" id="customers_table">
+         <section class="table__header">
+             <h1>Customer's Orders</h1>
+             <div class="input-group">
+                 <input type="search" placeholder="Search Data...">
+                 <img src="Assets/search.png" alt="">
+             </div>
+             <div class="export__file">
+                 <label for="export-file" class="export__file-btn" title="Export File">
+                 </label>
+                 <input type="checkbox" id="export-file">
+                 <div class="export__file-options">
+                     <label>Export As &nbsp; &#10140;</label>
+                     <label for="export-file" id="toPDF">PDF <img src="Assets/pdf.png" alt=""></label>
+                     <label for="export-file" id="toJSON">JSON <img src="Assets/json.png" alt=""></label>
+                     <label for="export-file" id="toCSV">CSV <img src="Assets/csv.png" alt=""></label>
+                     <label for="export-file" id="toEXCEL">EXCEL <img src="Assets/excel.png" alt=""></label>
+                 </div>
+             </div>
+         </section>
+         <section class="table__body">
+             <table>
+                 <thead>
+                     <tr>
+                         <th> s.no. <span class="icon-arrow">&UpArrow;</span></th>
+                         <th> Name <span class="icon-arrow">&UpArrow;</span></th>
+                         <th> Email ID <span class="icon-arrow">&UpArrow;</span></th>
+                         <th> Skills <span class="icon-arrow">&UpArrow;</span></th>
+                         <th> Status <span class="icon-arrow">&UpArrow;</span></th>
+                         <th> Experience <span class="icon-arrow">&UpArrow;</span></th>
+                     </tr>
+                 </thead>
+                 <tbody>
+                     <tr>
+                         <td> 1 </td>
+                         <td> <img src="Assets/Zinzu Chan Lee.jpg" alt="">Zinzu Chan Lee</td>
+                         <td> zinzuchan11@gmail.com </td>
+                         <td> MERN Stack Developement </td>
+                         <td>
+                             <p class="status delivered">Accepted</p>
+                         </td>
+                         <td> <strong> 6 years</strong></td>
+                     </tr>
+                     <tr>
+                         <td> 2 </td>
+                         <td><img src="Assets/Jeet Saru.jpg" alt=""> Jeet Saru </td>
+                         <td> dash0jeet@gmail.com </td>
+                         <td> Wordpress, PHP, SQL </td>
+                         <td>
+                             <p class="status cancelled">Rejected</p>
+                         </td>
+                         <td> <strong>1.5 years</strong> </td>
+                     </tr>
+                     <tr>
+                         <td> 3</td>
+                         <td><img src="Assets/Sonal Gharti.jpg" alt=""> Sonal Gharti </td>
+                         <td> sonal430@gmail.com </td>
+                         <td> 14 Mar, 2023 </td>
+                         <td>
+                             <p class="status shipped">Waitlist</p>
+                         </td>
+                         <td> <strong>3 years</strong> </td>
+                     </tr>
+                     <tr>
+                         <td> 4</td>
+                         <td><img src="Assets/Alson GC.jpg" alt=""> Anurag Bharti </td>
+                         <td> bhartianurag240@gmail.com </td>
+                         <td> React Native , AngularJS  </td>
+                         <td>
+                             <p class="status delivered">Accepted</p>
+                         </td>
+                         <td> <strong>Amateur</strong> </td>
+                     </tr>
+                     <tr>
+                         <td> 5</td>
+                         <td><img src="Assets/Sarita Limbu.jpg" alt="">Alis Priest</td>
+                         <td> priestalice2gmail.com </td>
+                         <td> Java, System Design  </td>
+                         <td>
+                             <p class="status pending">Pending</p>
+                         </td>
+                         <td> <strong>2 years</strong> </td>
+                     </tr>
+                     <tr>
+                         <td> 6</td>
+                         <td><img src="Assets/Alex Gonley.jpg" alt=""> Alex Gonley </td>
+                         <td> alexgon@gmail.com </td>
+                         <td> programing in c++, DSA, OOPs</td>
+                         <td>
+                             <p class="status cancelled">Rejected</p>
+                         </td>
+                         <td> <strong>Amateur</strong> </td>
+                     </tr>
+                     <tr>
+                         <td> 7</td>
+                         <td><img src="Assets/Sarita Limbu.jpg" alt=""> joe Steyn </td>
+                         <td> steynjoe52@gmail.com</td>
+                         <td> Full Stack Developement , UI/UX Design </td>
+                         <td>
+                             <p class="status delivered">Accepted</p>
+                         </td>
+                         <td> <strong>8 years</strong> </td>
+                     </tr>
+                     <tr>
+                         <td> 8</td>
+                         <td><img src="Assets/Sarita Limbu.jpg" alt=""> Aayat Ali Khan </td>
+                         <td> ayat51ali@gmail.com</td>
+                         <td>Wordpress and php developement </td>
+                         <td>
+                             <p class="status pending">Pending</p>
+                         </td>
+                         <td> <strong>2 years</strong> </td>
+                     </tr>
+                     <tr>
+                         <td> 9</td>
+                         <td><img src="Assets/Alex Gonley.jpg" alt=""> Alson GC </td>
+                         <td> gc5024@gmail.com</td>
+                         <td> mySQL </td>
+                         <td>
+                             <p class="status cancelled">Rejected</p>
+                         </td>
+                         <td> <strong>1 year</strong> </td>
+                     </tr>
+                     <tr>
+                         <td> 9</td>
+                         <td><img src="Assets/Alex Gonley.jpg" alt=""> Margret Knight </td>
+                         <td> awsomemargret@gmail.com </td>
+                         <td> MEAN stack </td>
+                         <td>
+                             <p class="status cancelled">Rejected</p>
+                         </td>
+                         <td> <strong>Amateur</strong> </td>
+                     </tr>
+                     <tr>
+                         <td> 9</td>
+                         <td><img src="Assets/Alex Gonley.jpg" alt="">Avni Goel</td>
+                         <td> avnigoel@gmail.com </td>
+                         <td> Backend Developer </td>
+                         <td>
+                             <p class="status delivered">Accepted</p>
+                         </td>
+                         <td> <strong>2 years</strong> </td>
+                     </tr>
+                     <tr>
+                         <td> 9</td>
+                         <td><img src="Assets/Alex Gonley.jpg" alt=""> Shubhankar Rai </td>
+                         <td> shubhankarrai13@gmail.com </td>
+                         <td> AI and Machine learninng </td>
+                         <td>
+                             <p class="status delivered">Accepted</p>
+                         </td>
+                         <td> <strong>Amateur</strong> </td>
+                     </tr>
+                     <tr>
+                         <td> 9</td>
+                         <td><img src="Assets/Alex Gonley.jpg" alt=""> Yaniya Malik </td>
+                         <td>yaniyamalik@gmail.com </td>
+                         <td> DSA in Java , Frontend Developement </td>
+                         <td>
+                             <p class="status cancelled">Rejected</p>
+                         </td>
+                         <td> <strong>2 years</strong> </td>
+                     </tr>
+                 </tbody>
+             </table>
+         </section>
+     </main>
+     <script src="script2.js"></script>
+ 
+ </body>
+ 
+ </html>
